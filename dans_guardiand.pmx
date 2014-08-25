@@ -1,0 +1,21 @@
+---
+name: Dans Guardiand
+description: "DansGuardian is an award winning Open Source web content filter which
+  currently runs on Linux, FreeBSD, OpenBSD, NetBSD, Mac OS X, HP-UX, and Solaris.
+  It filters the actual content of pages based on many methods including phrase matching,
+  PICS filtering and URL filtering. It does not purely filter based on a banned list
+  of sites like lesser totally commercial filters.\r\nDansGuardian is designed to
+  be completely flexible and allows you to tailor the filtering to your exact needs.
+  It can be as draconian or as unobstructive as you want. The default settings are
+  geared towards what a primary school might want but DansGuardian puts you in control
+  of what you want to block.\r\n\r\nIf you are running Microsoft Windows then this
+  software is not for you; it is for running on servers. Of course you can run it
+  on a server and filter Windows clients through it but it will not run on Windows
+  itself.\r\n\r\nDansGuardian is a true web content filter."
+keywords: ''
+type: Default
+documentation: ''
+images:
+- name: roobixx_docker-dg_latest
+  source: roobixx/docker-dg:latest
+  type: Default
