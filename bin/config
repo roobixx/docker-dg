@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+
+#Comment out line in Dan's Guardian Config - /etc/dansguardian/dansguardian.conf
+sed -i "/^UNCONFIGURED - Please remove this line after configuration/d" /etc/dansguardian/dansguardian.conf
+
+#Set Squid http_port to 3128 transparent - /etc/squid3/squid.conf
+sed -i "s/^http_port 3128/http_port 3128 transparent/" /etc/squid3/squid.conf
+
